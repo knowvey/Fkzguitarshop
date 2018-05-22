@@ -1,0 +1,328 @@
+ul, li, a {
+	list-style: none;
+	text-decoration: none;
+	display: inline;
+}
+
+body {
+	background-color: #ebe6e0;
+	position: relative;
+}
+
+header {	
+	background: url('../photos/home.jpg') no-repeat;	
+	width: 100%;
+	min-height: 680px;		
+	background-size: cover;
+}
+
+nav {
+	padding: 40px 0 40px 0;
+}
+
+nav li {
+	padding: 0 0 0 40px;
+}
+
+nav ul {
+	padding: 0;
+}
+
+nav ul li {
+	font-size: 18px;		
+}
+
+nav ul li a {
+	color: white;	
+}
+
+nav ul li a:hover {
+	color: #c89a2f;	
+	text-decoration: none;
+}
+
+h3 {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin: 0;	
+	margin-bottom: 2px;
+}
+
+.labelC h4 {
+	text-transform: uppercase;
+	margin: 0;	
+	margin-top: 3px;
+	font-size: 15px;
+}
+
+.vid {
+	padding: 0;
+}
+
+.title {
+	vertical-align: middle;
+    display: inline-block;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.jumbotron {	
+	min-height: 100%;	
+	height: 100%;		
+}
+
+.current {
+	color: #c89a2f;
+}
+
+.trans-bg {
+	background-color: rgba(0,0,0,0.4);
+	height: 160px;	
+}
+
+.newsletter {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: rgba(225, 225, 225, 0.68);			
+	max-width: 1170px;
+	border-bottom-left-radius: 20px;	
+	border-bottom-right-radius: 20px;					
+}
+
+.newsL {
+	text-transform: uppercase;
+	font-weight: bold;			
+	padding: 0;
+	text-align: right;
+}
+
+.header-inner {
+	margin: 0 20px;
+}
+
+#logo {
+	margin: 20px 0 0 0;
+	float: left;
+	width: 230px;
+	height: 70px;
+	background: url('../photos/logo5.png') no-repeat;
+	background-size: 230px 55px;	
+}
+
+.banner {	
+	text-align: right;		
+	margin-top: 6em;
+	padding-bottom: 20px;
+}
+
+.banner-inner {
+	background: rgba(223, 189, 85, 0.4);
+	padding: 1em 3em;
+	padding-bottom: 20px;
+}
+
+.banner h2 {
+	color: black;
+	font-weight: bold;
+	font-size: 38px;	
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";	
+}
+
+.banner p {
+	color: white;
+	line-height: 1.5em;
+	font-size: 24px;
+	margin: 10px 0 0em 0;
+	font-weight: 100;
+}
+
+.btnC {
+	background-color: #c89a2f;
+	font-weight: 700;
+	color: white;
+}
+
+.btnP {
+	background-color: #c89a2f;
+	font-weight: 700;
+	color: white;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.btnB {
+	background-color: transparent;
+	border: 1px solid #8d8882;
+	border-radius: 2px;
+	margin: 10px 10px;
+	width: 150px;
+}
+
+.bodyContainer {
+	padding-bottom: 50px;	
+}
+
+.line {
+	height: 1px;
+	background: black;
+	width: 70%;
+}
+
+.lineT {
+	height: 1px;
+	background: black;
+	width: 70%;
+}
+
+.content img {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	width: 250px;
+}
+
+.content h2 {
+	padding: 1em 0 50px 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 35px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.content p {
+	padding: 10px 3em;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 500;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.content h4 {
+	font-size: 20px;
+	font-weight: 700;	
+}
+
+.spotT {
+	padding: 30px 0;
+}
+
+.labelC {		
+	display: flex;
+	align-items: center;	
+}
+
+.spotL {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";	
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 600;	
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+footer {
+	background-color: #252121;	
+	color: #e9e6e0;
+	height: 300px;
+}
+
+footer ul {
+	padding-left: 0;
+}
+
+.social-icons {
+	margin-top: 70px;
+}
+
+.footer-nav {
+	margin: 50px 0;
+}
+
+.footer-nav a {
+	padding: 0 60px;
+	text-transform: uppercase;
+	color: #c89a2f
+}
+
+.footer-nav a:hover {
+	text-decoration: none;
+}
+
+.social-icons i {
+	color: #c89a2f;
+	text-align: center;
+	margin: 0 25px;
+	font-size: 28px;
+}
+
+.copyright {
+	text-transform: uppercase;
+	font-size: 12px;		
+	color: #c89a2f;	
+}	
+
+.prod {
+	padding-top: 30px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";	
+}
+
+.glyphicon-menu-hamburger {
+	padding-top: 10px;
+	color: #c89a2f;	
+	font-size: 40px;
+}
+
+.add-to-cart .btn-qty {
+  width: 52px;
+  height: 46px;
+}
+
+.add-to-cart .btn { 
+	border-radius: 0; 
+}
+
+.page-header {
+  text-align: center;
+}
+
+.page-header small {
+  display: block;
+}
+
+.cart-row {
+  margin: 10px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.cart-row div {
+  text-align: center; 
+}
+
+.cart-row img.img-responsive { 
+  margin: 0 auto; 
+}
+
+.h3-price { 
+  /*color: rgb(20, 80, 150);*/
+  font-family: 'Oxygen Mono', monospace;
+}
+
+/*
+@media (min-width: 768px) {
+
+  .page-header {
+    text-align: left;
+  }
+
+  .page-header small {
+    display: inline;
+  }
+
+}*/
